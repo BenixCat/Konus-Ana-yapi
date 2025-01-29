@@ -1,0 +1,13 @@
+:root {
+     --primary-color: #e63946;
+     --secondary-color: #1d3557;
+     --accent-color: #457b9d;
+     --light-color: #f1faee;
+     --dark-color: #2b2d42;
+   }
+
+   body {
+     font-family: "Poppins", sans-serif;
+     line-height: 1.6;
+     color: var(--dark-color);
+   }
