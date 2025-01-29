@@ -15,11 +15,11 @@
     />
     <!-- Bootstrap End -->
     <!-- General Css -->
-    <link rel="stylesheet" href="footer.css" />
-    <link rel="stylesheet" href="navigation.css" />
+    <link rel="stylesheet" href="index-map-css/navigation.css" />
+    <link rel="stylesheet" href="index-map-css/footer.css" />
     <!-- Special Css -->
-    <link rel="stylesheet" href="index-map.css" />
-    <link rel="stylesheet" href="reseach.css" />
+    <link rel="stylesheet" href="index-map-css/index-map.css" />
+    <link rel="stylesheet" href="index-map-css/reseach.css" />
   </head>
   <body>
     <!-- Navigation Start -->
@@ -285,26 +285,25 @@
             </ul>
           </article>
           <!-- Map Usage Guide Right Side Start -->
-          <article class="mt-5 d-none d-sm-inline-block">
-            <ul class="artc-info-list list-right">
-              <li class="artc-info-right-item toobad mb-3">
-                KOYU KIRMIZI: Aşırı kısıtlı
-              </li>
-              <li class="artc-info-item-right bad mb-3">
-                KIRMIZI: Çok Kısıtlı
-              </li>
-
-              <li class="artc-info-item-right mid mb-3">TURUNCU: Kısıtlı</li>
-              <li class="artc-info-item-right mid-good mb-3">
-                SARI: Az kısıtlı
-              </li>
-              <br />
-              <li class="artc-info-item-right good mb-3">YEŞİL: Açık</li>
-              <br />
-              <li class="artc-info-item-right data-null mb-3">
-                GRİ: Veri Eksik
-              </li>
-            </ul>
+          <article class="mt-5 ms-5 d-none d-sm-inline-block">
+            <div class="card p-2" style="width: 18rem">
+              <ul class="list-group list-group-flush">
+                <li class="fw-bold list-group-item toobad">
+                  KOYU KIRMIZI: Aşırı kısıtlı
+                </li>
+                <li class="fw-bold list-group-item bad">
+                  KIRMIZI: Çok Kısıtlı
+                </li>
+                <li class="fw-bold list-group-item mid">TURUNCU: Kısıtlı</li>
+                <li class="fw-bold list-group-item mid-good">
+                  SARI: Az kısıtlı
+                </li>
+                <li class="fw-bold list-group-item good">YEŞİL: Açık</li>
+                <li class="fw-bold list-group-item data-null">
+                  GRİ: Veri Eksik
+                </li>
+              </ul>
+            </div>
           </article>
           <!-- Map Usage Guide Right Side End -->
         </section>
@@ -312,19 +311,18 @@
 
         <!-- Map Usage Guide Right Side For Phones Start -->
         <article class="mt-5 dp-inline-block d-sm-none">
-          <ul class="artc-info-list list-right">
-            <li class="artc-info-right-item toobad mb-3">
-              KOYU KIRMIZI: Aşırı kısıtlı
-            </li>
-            <li class="artc-info-item-right bad mb-3">KIRMIZI: Çok Kısıtlı</li>
-
-            <li class="artc-info-item-right mid mb-3">TURUNCU: Kısıtlı</li>
-            <li class="artc-info-item-right mid-good mb-3">SARI: Az kısıtlı</li>
-            <br />
-            <li class="artc-info-item-right good mb-3">YEŞİL: Açık</li>
-            <br />
-            <li class="artc-info-item-right data-null mb-3">GRİ: Veri Eksik</li>
-          </ul>
+          <div class="card p-2" style="width: 18rem">
+            <ul class="list-group list-group-flush">
+              <li class="fw-bold list-group-item toobad">
+                KOYU KIRMIZI: Aşırı kısıtlı
+              </li>
+              <li class="fw-bold list-group-item bad">KIRMIZI: Çok Kısıtlı</li>
+              <li class="fw-bold list-group-item mid">TURUNCU: Kısıtlı</li>
+              <li class="fw-bold list-group-item mid-good">SARI: Az kısıtlı</li>
+              <li class="fw-bold list-group-item good">YEŞİL: Açık</li>
+              <li class="fw-bold list-group-item data-null">GRİ: Veri Eksik</li>
+            </ul>
+          </div>
         </article>
         <!-- Map Usage Guide Right Side For Phones End -->
 
@@ -692,7 +690,7 @@
       <p>&copy;2025 Konus | Tüm Hakları Saklıdırr</p>
     </footer>
     <!-- Footer End -->
-    <script src="index-map.js"></script>
+    <script src="index-map-js/index-map.js"></script>
     <!-- Bootstrap Start-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

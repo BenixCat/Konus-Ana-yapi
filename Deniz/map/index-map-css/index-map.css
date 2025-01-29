@@ -74,7 +74,7 @@
 .bad-communication {
      background-color: #deeeee;
      border-radius: 20px;
-     border: 1px solid #222;
+     box-shadow: 0 0 20px #adadad;
      
      letter-spacing: 2px;
 }
