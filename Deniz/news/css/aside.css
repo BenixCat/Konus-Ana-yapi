@@ -1,0 +1,36 @@
+.aside-bar {
+     position: absolute;
+     right: 0;
+     top: 0%;
+     background: #eeeeee;
+     padding: 20px;
+     overflow-y: auto;
+     border-radius: 20px;
+     box-shadow: 0 0 20px #6bbbbb;
+ }
+
+ aside ul {
+     list-style: none;
+     padding: 0;
+ }
+
+ aside li {
+     padding: 10px;
+     margin: 5px 0;
+     cursor: pointer;
+     font-weight: 600;
+ }
+
+.relative{
+     position: relative;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: #559292;
+}
+
+aside ul li a:hover{
+    text-decoration: none;
+    color: #3c6b6b;
+}
