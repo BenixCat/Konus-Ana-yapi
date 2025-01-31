@@ -1,0 +1,23 @@
+.dropdown:hover > .dropdown-menu {
+     display: block;
+     margin-top: 0;
+ }
+ 
+ /* Submenu hover */
+ .dropdown-menu .dropdown:hover > .dropdown-menu {
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 100%;
+     margin-top: -1px;
+ }
+ 
+ /* Mobil uyumluluk için hover'ı devre dışı bırak */
+ @media (max-width: 992px) {
+     .dropdown:hover > .dropdown-menu {
+         display: none;
+     }
+     .dropdown-menu .dropdown:hover > .dropdown-menu {
+         display: none;
+     }
+ }
